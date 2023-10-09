@@ -14,21 +14,43 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - MJExtension (3.4.1)
+  - Tweaks (2.3.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
+  - BlocksKit
   - MJExtension (~> 3.4.1)
+  - Tweaks
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - BlocksKit
     - MJExtension
+    - Tweaks
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  BlocksKit: 8639b2848dd51c35c957af4d9fbdc7a769a1fc12
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  Tweaks: bfcdf1cea929670d4a709ed6adf5de8a4cebc7c7
 
-PODFILE CHECKSUM: fea91c955b76514ac1d45c7345dfd609e11c2e74
+PODFILE CHECKSUM: de32b3380291d2b939aa33854fdaa278f772b1b1
 
 COCOAPODS: 1.12.1
